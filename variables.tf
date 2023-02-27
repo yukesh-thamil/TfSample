@@ -1,19 +1,19 @@
 variable "resource_group_name" {
-    
+
 }
 variable "location" {
-    
+
 }
 variable "virtual_network_name" {
-    
+
 }
 variable "virtual_network_address_space" {
-    
+
 }
 variable "subnet_name" {}
-    
+
 variable "subnet_address_prefixes" {
-    
+
 }
 variable "account_tier" {
   description = "Defines the Tier to use for this storage account. Valid options are Standard and Premium. Changing this forces a new resource to be created."
@@ -73,57 +73,57 @@ variable "tags" {
   default     = {}
 }
 
-variable "storage_name"{
-    
+variable "storage_name" {
+
 }
 
 
 variable "private_dns_zone_name" {
-  
+
 }
 
 
 variable "vmname" {
-    
+
 }
 variable "bastionvmname" {
-    
+
 }
 
 variable "vm_size" {
-    
+
 }
 variable "os_disk_type" {
-    
+
 }
 variable "admin_usename" {
-    
+
 }
 variable "admin_password" {
-    
+
 }
 variable "image_publisher" {
-    
+
 }
 variable "image_offer" {
-    
+
 }
 variable "image_sku" {
-    
+
 }
 variable "my_ip" {}
 #variable "white_list_ip"{}
 variable "basvirtual_network_name" {
-    
+
 }
 
 variable "basvirtual_network_address_space" {
-    
+
 }
 
 variable "bassubnet_name" {
-    
+
 }
 variable "bassubnet_address_prefixes" {
-    
+
 }
